@@ -1,6 +1,6 @@
 const express = require('express');
 const { catchErrors } = require('./errors');
-const {login, register} = require('./service');
+const { login, register } = require('./service');
 const router = express.Router();
 
 router.post('/login', catchErrors(async (req, res) => {
