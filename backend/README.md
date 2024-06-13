@@ -4,7 +4,6 @@ Navigate to the backend folder
 cd backend
 ```
 
-```
 Install requirements
 ```sh
 npm install
